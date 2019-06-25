@@ -1,0 +1,73 @@
+body {
+    color: #222324;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 300;
+}
+
+main {
+    padding: 0;
+    width: 100%;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/* unvisited link */
+ a:link {
+    color: #222324;
+}
+/* visited link */
+a:visited {
+    color: #222324;
+}
+/* mouse over link */
+a:hover {
+    color: #222324;
+    text-decoration: underline;
+}
+/* selected link */
+a:active {
+    color: #222324;
+}
+
+
+.banner-container {
+  color: white;
+  max-width: 1122px;
+  margin: 0 auto;
+  text-align: center;
+}
+  .banner-img {
+    display: block;
+    width: 100%;
+  }
+    .banner-title {
+      background-color: #f94e4b;
+      padding: 25px 0 ;
+        width: 100%;
+    }
+
+    .banner-title h1{
+      border: 1px solid white;
+          max-width: 560px;
+          margin: 0 auto;
+          padding: 4px;
+              }
+
+      .banner-txt {
+          background-color: #222324;
+          padding: 70px 0;
+          width: 100%;
+      }
+
+          .banner-txt p {
+              max-width: 650px;
+              margin: 0 auto;
+          }

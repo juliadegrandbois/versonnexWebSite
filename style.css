@@ -1,0 +1,228 @@
+header {
+    display: flex;
+    width: 100%;
+    background-color:#FFD166;
+}
+
+main {
+  background-color: #FFD166;
+  margin-bottom: 5%;
+  padding: 5%;
+
+}
+
+
+
+.title-banner{
+  background: #FFD166 url(photos/couverture.jpg) no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  margin-bottom: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-banner{
+  background-color: #ffe6e6;
+}
+
+header ul {
+  list-style: none;
+  padding: 0;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 0 4px;
+}
+
+nav {
+  flex: auto;
+  align-self: flex-end;
+  text-align: center;
+}
+
+.gallery{
+  background-color: #6E6262;
+  margin-bottom: 5%;
+  padding: calc(5%-20px);
+    }
+
+.rewiews{
+  padding: 5%;
+}
+
+.gallery ul{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.gallery li{
+  flex: 1 0 150px;
+  height: 300px;
+  width: 200px;
+  margin: 20px;
+}
+
+.moliere{
+  background-image: url(photos/moliere.jpg);
+  background-position: 40% 50%;
+}
+
+.moliereEtGypsy{
+  background-image: url(photos/moliereEtGypsy.jpg);
+  background-position: 60% 50%;
+}
+
+.rencontre{
+  background-image: url(photos/rencontre.jpg);
+  background-position: 90% 30%;
+}
+
+.abreuvoir{
+  background-image: url(photos/abreuvoir.jpg);
+  background-position: 19% 80%;
+}
+
+.carre2{
+  background-image: url(photos/carre2.jpg);
+  background-position: 50% 60%;
+}
+
+.abrisenhiver{
+  background-image: url(photos/abrisenhiver.jpg);
+  background-position: 50% 50%;
+}
+.carre{
+  background-image: url(photos/carre.jpg);
+  background-position: 70% 50%;
+}
+
+.img-txt-container{
+  display: flex;
+  margin:10px; 0;
+}
+
+.img-container{}
+
+.img-container img{
+  display: block;
+}
+
+.txt-container{
+  padding: 40px 20px 20px 70px
+}
+
+.img-container h2. .txt-container h4{
+  margin:0;
+}
+
+
+.img-container h4{
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.column {
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  float: left;
+}
+
+.column li {
+  width: 600px;
+}
+
+
+theme:
+
+body {
+  color: #222324;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 300;
+}
+
+main {
+  padding: 0;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+a:link {
+  color: #222324;
+}
+
+a:visited {
+  color: #222324;
+}
+
+a:hover {
+  color: #222324;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #222324;
+}
+
+.banner-container {
+  color: white;
+  max-width: 1122px;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner-img {
+  display: block;
+  width: 100%;
+}
+.banner-title {
+  background-color: #f94e4b;
+  padding: 25px 0 ;
+  width: 100%;
+}
+
+.banner-title h1{
+  border: 1px solid white;
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 4px;
+}
+
+.banner-txt {
+  background-color: #222324;
+  padding: 70px 0;
+  width: 100%;
+}
+
+.banner-txt p {
+  max-width: 650px;
+  margin: 0 auto;
+}
